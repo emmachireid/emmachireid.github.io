@@ -17,10 +17,10 @@ body {
 }
 
 header{
-    justify-content: flex-start;
     display:flex;
-    font-size: 5em;
+    font-size: 5.5em;
     color: white;
+    font-weight: bold;
     font-family: Arial;
     writing-mode: vertical-rl;
 }
@@ -28,9 +28,7 @@ header{
 .two{
     display:flex;
     align-items: center;
-    justify-content: flex-end;
     font-family: Arial;
-    /* order: 0; */
 }
 
 
