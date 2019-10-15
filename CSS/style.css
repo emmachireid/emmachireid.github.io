@@ -37,6 +37,8 @@ header{
     display:flex;
     height: 20%;
     justify-content: center;
+    background-color: #C9A1A1;
+    padding: 20px;
 }
 
 .three{
