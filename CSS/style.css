@@ -1,0 +1,52 @@
+html, body{
+    height: 150%;
+    width: 100%
+  }
+  
+
+body { 
+    background-image: url(..//images/DSC00321-Edit\ copy.jpg) ;
+    background-position: center;
+    background-repeat:  no-repeat;
+    background-size:  cover;
+} 
+
+.parent1 {
+    display:flex;
+    height:80%;
+}
+
+header{
+    justify-content: flex-start;
+    display:flex;
+    font-size: 5em;
+    color: white;
+    font-family: Arial;
+    writing-mode: vertical-rl;
+}
+
+.two{
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: Arial;
+    /* order: 0; */
+}
+
+
+
+.parent2 {
+    display:flex;
+    height: 20%;
+    justify-content: center;
+}
+
+.three{
+    display:flex;
+    font-family: Arial;
+}
+
+.skill1, .skill2, .skill3 {
+    padding: 60px;
+}
+
