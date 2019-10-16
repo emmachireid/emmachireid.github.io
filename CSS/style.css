@@ -1,19 +1,15 @@
-html, body{
-    height: 150%;
-    width: 100%
-  }
-  
+
 
 body { 
-    background-image: url(..//images/DSC00321-Edit\ copy.jpg) ;
-    background-position: center;
+    background-image: url(..//images/DSC00321-Edit\ copy\ 2.jpg);
+    background-position: center fixed;
     background-repeat:  no-repeat;
     background-size:  cover;
 } 
 
 .parent1 {
     display:flex;
-    height:80%;
+    /* height:90%; */
 }
 
 header{
@@ -21,32 +17,48 @@ header{
     font-size: 5.5em;
     color: white;
     font-weight: bold;
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     writing-mode: vertical-rl;
+}
+
+.one {
+    display:flex;
+    width:15%;
 }
 
 .two{
     display:flex;
     align-items: center;
-    font-family: Arial;
+    font-family: Verdana, Geneva, sans-serif;
+    width: 85%;
 }
 
-
-
-.parent2 {
+.column {
     display:flex;
-    height: 20%;
-    justify-content: center;
+    height: 250px;
+    width: 1050px;
+    flex-direction: row;
     background-color: #C9A1A1;
-    padding: 20px;
+    margin: 0 auto;
 }
 
-.three{
+
+.parent2, .parent3 {
     display:flex;
-    font-family: Arial;
+    align-items: center;
+    font-family: Verdana, Geneva, sans-serif;
 }
 
-.skill1, .skill2, .skill3 {
-    padding: 60px;
+.a{
+    font-size: 18px;
 }
+
+.contacthead, .contactinfo {
+    padding: 0px 30px 0px 80px;
+}
+
+li{
+    padding:10px;
+}
+
 
